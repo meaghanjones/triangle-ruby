@@ -15,7 +15,7 @@ _{Leave nothing to chance! You want it to be easy for potential users, employers
 
 ## Known Bugs
 
-none 
+none
 
 ## Support and contact details
 
