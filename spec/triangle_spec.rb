@@ -7,5 +7,12 @@ describe(Triangle) do
       test_triangle = Triangle.new(1, 1, 15)
       expect(test_triangle.triangle?()).to(eq(false))
     end
+
+    describe("#equilateral?") do
+      it("returns true if it is an equilateral tirangle")do
+        test_equilateral = Triangle.new(3, 3, 3)
+        expec(test_equilateral.equilateral?()).to(eq(true))
+      end      
+    end
   end
 end
